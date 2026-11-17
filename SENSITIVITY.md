@@ -1,8 +1,8 @@
 # Exact repair-cost sensitivity
 
-[Live inspector](https://midya8.github.io/euflab/sensitivity.html) · [Underlying planner](PLANNER.md)
+[Live inspector](https://midya8.github.io/congruence-closure/sensitivity.html) · [Underlying planner](PLANNER.md)
 
-The fifth EUFLab inspector explains **when a cheapest repair changes** as one deletion price varies. It certifies every inclusive integer interval in 0..1,000,000, all optimum deletion-mask families, exact crossing ties and the maximal interval preserving the complete nominal optimum set. This is a complete bounded one-coordinate calculation, not slider sampling, a new optimization algorithm or a simultaneous-uncertainty guarantee.
+The fifth Congruence closure inspector explains **when a cheapest repair changes** as one deletion price varies. It certifies every inclusive integer interval in 0..1,000,000, all optimum deletion-mask families, exact crossing ties and the maximal interval preserving the complete nominal optimum set. This is a complete bounded one-coordinate calculation, not slider sampling, a new optimization algorithm or a simultaneous-uncertainty guarantee.
 
 ## Fixed request and scope
 
