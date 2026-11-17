@@ -1,8 +1,8 @@
-# EUFLab
+# Congruence closure
 
 Ground equality proofs, congruence-derived contradictions and total finite countermodels.
 
-[Live inspector](https://midya8.github.io/euflab/) · [Exact contract and six-source ledger](METHOD.md)
+[Live inspector](https://midya8.github.io/congruence-closure/) · [Exact contract and six-source ledger](METHOD.md)
 
 - Native union-find and proof-forest paths; independent relational closure/certificate/model replay.
 - Separate JavaScript relation engine. Every ordered equal pair has a proof DAG. Every non-entailed equality in a consistent input has a separating finite interpretation.
@@ -52,7 +52,7 @@ At most eight terms, arity at most two, eight equalities and eight disequalities
 
 ## Finite-model atlas
 
-[Live atlas](https://midya8.github.io/euflab/atlas.html) | [Exact atlas contract and sources](ATLAS.md)
+[Live atlas](https://midya8.github.io/congruence-closure/atlas.html) | [Exact atlas contract and sources](ATLAS.md)
 
 The largest quotient model is not necessarily the smallest domain. Enumerate every compatible term-equality pattern, minimum domain size and realized-value histogram. Classify each pair as forced equal, forced different or flexible, with total model witnesses. Unary result difference forces argument difference; binary result difference generally forces a disjunction, not each difference.
 
@@ -66,7 +66,7 @@ Independent restricted-growth, explicit-block and subset-cover enumerators. Pres
 
 ## Bounded-domain contradiction debugger
 
-[Live domain-cap debugger](https://midya8.github.io/euflab/cardinality.html) | [Exact diagnosis contract](CARDINALITY.md)
+[Live domain-cap debugger](https://midya8.github.io/congruence-closure/cardinality.html) | [Exact diagnosis contract](CARDINALITY.md)
 
 Fix a finite-domain upper bound and inspect **every minimal conflicting assertion subset** and **every minimal deletion repair**. Distinguish intrinsic contradictions from cap-only conflicts, audit all assertion subsets, and inspect total models for whole-input repairs or individual core relaxations. Duplicate occurrences stay separate; minimal does not mean minimum-size, and fixing one core need not fix the full input. A unary three-cycle control shows why coloring only explicit difference edges is insufficient.
 
@@ -74,7 +74,7 @@ Fix a finite-domain upper bound and inspect **every minimal conflicting assertio
 
 ## Costed repair planner
 
-[Live planner](https://midya8.github.io/euflab/planner.html) · [Exact semantics and six-source ledger](PLANNER.md)
+[Live planner](https://midya8.github.io/congruence-closure/planner.html) · [Exact semantics and six-source ledger](PLANNER.md)
 
 Protect occurrence IDs and set explicit nonnegative deletion costs. The fourth inspector returns every permitted deletion mask, every cost-only optimum, a separate cost/count Pareto frontier, protected-core obstructions and total retained-input models. Zero-cost nonminimal ties are preserved; deleting does not mean negating. Costs never override protected assertions. Nothing is actually edited. Eight terms/eight occurrences, not a general MaxSMT optimizer.
 
@@ -82,7 +82,7 @@ Protect occurrence IDs and set explicit nonnegative deletion costs. The fourth i
 
 ## Exact repair-cost sensitivity
 
-[Live sensitivity inspector](https://midya8.github.io/euflab/sensitivity.html) · [Derivation, contract and seven-source ledger](SENSITIVITY.md)
+[Live sensitivity inspector](https://midya8.github.io/congruence-closure/sensitivity.html) · [Derivation, contract and seven-source ledger](SENSITIVITY.md)
 
 When does a cheapest repair change? Freeze every other cost, protected ID, assertion and domain cap. The fifth inspector certifies every integer interval in 0..1,000,000, every breakpoint tie, all optimal mask families and the maximal interval preserving the full nominal optimum set. Probe adjusted cost/regret and replay a total model without hiding zero-cost nonminimal optima. Exact two-slope finite planning, not a simultaneous robustness or general parametric-optimization claim.
 
