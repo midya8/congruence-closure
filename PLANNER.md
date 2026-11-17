@@ -1,6 +1,6 @@
 # Costed repair planner
 
-[Live planner](https://midya8.github.io/euflab/planner.html) · [All minimal conflicts/repairs](https://midya8.github.io/euflab/cardinality.html)
+[Live planner](https://midya8.github.io/congruence-closure/planner.html) · [All minimal conflicts/repairs](https://midya8.github.io/congruence-closure/cardinality.html)
 
 This is complete bounded **deletion-set planning**, not an editor or general MaxSMT solver. The earlier proof, atlas and domain-cap diagnosis inspectors are preserved. The objective is explicit: minimize the sum of the costs of deleted assertion occurrences, with selected protected occurrences forbidden from deletion. A separate Pareto view considers deletion cost and deletion count together.
 
